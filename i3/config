@@ -4,9 +4,9 @@ font pango:monospace 8
 
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-exec --no-startup-id xsetroot -solid "#ffffff"
+exec_always --no-startup-id xsetroot -solid "#ffffff"
 exec --no-startup-id i3-msg 'workspace 1'
-exec --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
+exec_always --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
 
 for_window [class="^.*"] border pixel 2
 gaps inner 6

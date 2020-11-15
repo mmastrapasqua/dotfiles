@@ -6,4 +6,5 @@ cp -r i3/* ~/.config/i3/
 cp -r polybar/* ~/.config/polybar/
 cp -r rofi/* ~/.config/rofi/
 
+killall picom
 i3-msg restart
