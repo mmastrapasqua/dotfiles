@@ -1,1 +1,1 @@
-rofi -show drun -theme rofi/nord.rasi
+rofi -show {drun,window,run} -theme rofi/nord.rasi
