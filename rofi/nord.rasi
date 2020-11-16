@@ -29,11 +29,11 @@ configuration {
   aurora-4: #A3BE8C;
   aurora-5: #B48EAD;
 
-  background-color: @polar-2;
+  background-color: #1E2229;
 
   width: 500;
 
-  border: 0;
+  border: 2;
   margin: 0;
   padding: 0;
   spacing: 0;
@@ -81,5 +81,6 @@ prompt {
 }
 
 window {
+  border-color: #000000;
   transparency: "real";
 }

@@ -7,15 +7,19 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id xsetroot -solid "#ffffff"
 exec --no-startup-id i3-msg 'workspace 1'
 exec_always --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
+exec_always --no-startup-id feh --bg-scale --randomize ~/pictures/wallpapers/*
 
 for_window [class="^.*"] border pixel 2
 gaps inner 6
+gaps outer 2
 smart_gaps on
 smart_borders on
 smart_borders no_gaps
 
-set $bg-color 	         #00ff00
-set $inactive-bg-color   #2f343f
+# #1e2229
+
+set $bg-color 	         #7f0000
+set $inactive-bg-color   #37474f
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
