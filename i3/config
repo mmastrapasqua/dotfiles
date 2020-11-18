@@ -8,9 +8,8 @@ exec --no-startup-id i3-msg 'workspace 1'
 exec_always --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
 exec_always --no-startup-id feh --bg-scale --randomize ~/pictures/wallpapers/*
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 gaps inner 6
-gaps outer 2
 smart_gaps on
 smart_borders on
 smart_borders no_gaps
@@ -84,13 +83,13 @@ bindsym $mod+Shift+7 move container to workspace number $ws7
 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit?' -B 'Yes' 'i3-msg exit'"
 
 mode "resize" {
-	bindsym Left  resize shrink width 10 px or 10 ppt
-	bindsym Down  resize grow height 10 px or 10 ppt
-	bindsym Up    resize shrink height 10 px or 10 ppt
-	bindsym Right resize grow width 10 px or 10 ppt
+	bindsym Left  resize shrink width 5 px or 5 ppt
+	bindsym Down  resize grow height 5 px or 5 ppt
+	bindsym Up    resize shrink height 5 px or 5 ppt
+	bindsym Right resize grow width 5 px or 5 ppt
 
 	bindsym Return mode "default"
 	bindsym Escape mode "default"
