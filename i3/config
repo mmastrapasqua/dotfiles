@@ -14,7 +14,7 @@ smart_gaps on
 smart_borders on
 smart_borders no_gaps
 
-set $bg-color 	         #20639b
+set $bg-color 	         #c62828
 set $inactive-bg-color   #1e2229
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
