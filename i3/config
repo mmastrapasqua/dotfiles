@@ -6,7 +6,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id i3-msg 'workspace 1'
 exec_always --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
-exec_always --no-startup-id feh --bg-scale --randomize ~/pictures/wallpapers/*
+exec_always --no-startup-id sleep 3 ; feh --bg-fill --randomize ~/pictures/wallpapers/*
 
 for_window [class="^.*"] border pixel 2
 gaps inner 6
