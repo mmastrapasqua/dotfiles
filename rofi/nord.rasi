@@ -3,7 +3,7 @@ configuration {
   display-drun: "  ";
   display-window: "  ";
   drun-display-format: "{icon} {name}";
-  font: "JetBrainsMono Nerd Font Medium 10";
+  font: "Roboto Medium 10";
   modi: "window,run,drun";
   show-icons: true;
 }
@@ -29,7 +29,7 @@ configuration {
   aurora-4: #A3BE8C;
   aurora-5: #B48EAD;
 
-  background-color: #1E2229;
+  background-color: #000000;
 
   width: 500;
 
@@ -50,7 +50,7 @@ element-icon {
 }
 
 element selected {
-  text-color: @aurora-3;
+  text-color: #FFFFFF;
 }
 
 entry {
@@ -81,6 +81,6 @@ prompt {
 }
 
 window {
-  border-color: #000000;
+  border-color: #0D47A1;
   transparency: "real";
 }
