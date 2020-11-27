@@ -42,7 +42,7 @@ configuration {
 element {
   padding: 12;
   orientation: horizontal;
-  text-color: @frost-3;
+  text-color: #AAAAAA;
 }
 
 element-icon {
@@ -50,13 +50,13 @@ element-icon {
 }
 
 element selected {
-  text-color: #FFFFFF;
+  text-color: #EF5350;
 }
 
 entry {
-  background-color: @polar-2;
+  background-color: #000000;
   padding: 12 0 12 3;
-  text-color: @frost-1;
+  text-color: #AAAAAA;
 }
 
 inputbar {
@@ -73,14 +73,14 @@ mainbox {
 }
 
 prompt {
-  background-color: @polar-2;
+  background-color: #000000;
   enabled: true;
   font: "FontAwesome 12";
   padding: 12 0 0 12;
-  text-color: @frost-1;
+  text-color: #FFFFFF;
 }
 
 window {
-  border-color: #0D47A1;
+  border-color: #EF5350;
   transparency: "real";
 }
