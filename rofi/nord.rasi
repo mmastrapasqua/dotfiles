@@ -3,7 +3,7 @@ configuration {
   display-drun: "  ";
   display-window: "  ";
   drun-display-format: "{icon} {name}";
-  font: "Roboto Medium 10";
+  font: "Fira Sans Medium 9";
   modi: "window,run,drun";
   show-icons: true;
 }
@@ -33,7 +33,7 @@ configuration {
 
   width: 500;
 
-  border: 2;
+  border: 1;
   margin: 0;
   padding: 0;
   spacing: 0;
@@ -54,7 +54,7 @@ element selected {
 }
 
 entry {
-  background-color: #000000;
+  background-color: #001735;
   padding: 12 0 12 3;
   text-color: #AAAAAA;
 }
@@ -73,7 +73,7 @@ mainbox {
 }
 
 prompt {
-  background-color: #000000;
+  background-color: #001735;
   enabled: true;
   font: "FontAwesome 12";
   padding: 12 0 0 12;
@@ -81,6 +81,6 @@ prompt {
 }
 
 window {
-  border-color: #EF5350;
+  border-color: #001735;
   transparency: "real";
 }
