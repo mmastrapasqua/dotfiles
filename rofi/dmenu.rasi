@@ -1,0 +1,86 @@
+configuration {
+	display-run: " ";
+	display-drun: "  ";
+	display-window: "  ";
+	drun-display-format: "{icon} {name}";
+	font: "Fira Sans Medium 9";
+	modi: "window,run,drun";
+	show-icons: true;
+}
+
+* {
+	polar-1: #2E3440;
+	polar-2: #323F4F;
+	polar-3: #434C5E;
+	polar-4: #4C566A;
+
+	snow-1: #D8DEE9;
+	snow-2: #E5E9F0;
+	snow-3: #ECEFF4;
+
+	frost-1: #8FBCBB;
+	frost-2: #88C0D0;
+	frost-3: #81A1C1;
+	frost-4: #5E81AC;
+
+	aurora-1: #BF616A;
+	aurora-2: #D08770;
+	aurora-3: #EBCB8B;
+	aurora-4: #A3BE8C;
+	aurora-5: #B48EAD;
+
+	background-color: #000000;
+
+	width: 500;
+
+	border: 1;
+	margin: 0;
+	padding: 0;
+	spacing: 0;
+}
+
+element {
+	padding: 12;
+	orientation: horizontal;
+	text-color: #AAAAAA;
+}
+
+element-icon {
+	size: 1.2em;
+}
+
+element selected {
+	text-color: #EF5350;
+}
+
+entry {
+	background-color: #001735;
+	padding: 12 0 12 3;
+	text-color: #AAAAAA;
+}
+
+inputbar {
+	children: [prompt, entry];
+}
+
+listview {
+	columns: 1;
+	lines: 8;
+}
+
+mainbox {
+	children: [inputbar, listview];
+}
+
+prompt {
+	background-color: #001735;
+	enabled: true;
+	font: "FontAwesome 12";
+	padding: 12 0 0 12;
+	text-color: #FFFFFF;
+}
+
+window {
+	border-color: #001735;
+	transparency: "real";
+}
