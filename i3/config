@@ -12,8 +12,8 @@ exec --no-startup-id sleep 2 ; i3-msg 'workspace 1'
 # Gaps #
 ########
 
-for_window [class="^.*"] border pixel 3
-gaps inner 6
+for_window [class="^.*"] border pixel 2
+gaps inner 8
 smart_gaps on
 smart_borders on
 smart_borders no_gaps
@@ -22,8 +22,8 @@ smart_borders no_gaps
 # Colors #
 ##########
 
-set $bg-color 	         #001735
-set $inactive-bg-color   #001735
+set $bg-color 	         #663232
+set $inactive-bg-color   #25343d
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935

@@ -29,7 +29,7 @@ configuration {
 	aurora-4: #A3BE8C;
 	aurora-5: #B48EAD;
 
-	background-color: #000000;
+	background-color: #25343d;
 
 	width: 500;
 
@@ -54,7 +54,7 @@ element selected {
 }
 
 entry {
-	background-color: #001735;
+	background-color: #25343d;
 	padding: 12 0 12 3;
 	text-color: #AAAAAA;
 }
@@ -73,7 +73,7 @@ mainbox {
 }
 
 prompt {
-	background-color: #001735;
+	background-color: #25343d;
 	enabled: true;
 	font: "FontAwesome 12";
 	padding: 12 0 0 12;
