@@ -34,7 +34,7 @@ configuration {
 	white: #ffffff;
 	transparent: #00000000;
 
-	background-color: @gray-1;
+	background-color: #0c1114;
 
 	width: 500;
 
