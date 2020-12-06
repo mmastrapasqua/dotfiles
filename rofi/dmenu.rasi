@@ -9,31 +9,36 @@ configuration {
 }
 
 * {
-	polar-1: #2E3440;
-	polar-2: #323F4F;
-	polar-3: #434C5E;
-	polar-4: #4C566A;
+	red-1: #D32F2F;
+	red-2: #E53935;
+	red-3: #EE413D;
+	red-4: #EF5350;
 
-	snow-1: #D8DEE9;
-	snow-2: #E5E9F0;
-	snow-3: #ECEFF4;
+	gray-1: #141C21;
+	gray-2: #1e2a31;
+	gray-3: #25343d;
+	gray-4: #2e404b;
 
-	frost-1: #8FBCBB;
-	frost-2: #88C0D0;
-	frost-3: #81A1C1;
-	frost-4: #5E81AC;
+	cyan-1: #3c81b9;
+	cyan-2: #5695c8;
+	cyan-3: #74a8d2;
+	cyan-4: #93bbdc;
 
-	aurora-1: #BF616A;
-	aurora-2: #D08770;
-	aurora-3: #EBCB8B;
-	aurora-4: #A3BE8C;
-	aurora-5: #B48EAD;
 
-	background-color: #25343d;
+	beige-1: #665952;
+	beige-2: #7d6c64;
+	beige-3: #928177;
+	beige-4: #a4968e;
+
+	black: #000000;
+	white: #ffffff;
+	transparent: #00000000;
+
+	background-color: @gray-1;
 
 	width: 500;
 
-	border: 1;
+	border: 2;
 	margin: 0;
 	padding: 0;
 	spacing: 0;
@@ -42,7 +47,7 @@ configuration {
 element {
 	padding: 12;
 	orientation: horizontal;
-	text-color: #AAAAAA;
+	text-color: @beige-4;
 }
 
 element-icon {
@@ -50,13 +55,13 @@ element-icon {
 }
 
 element selected {
-	text-color: #EF5350;
+	text-color: @cyan-3;
 }
 
 entry {
-	background-color: #25343d;
-	padding: 12 0 12 3;
-	text-color: #AAAAAA;
+	background-color: @beige-4;
+	padding: 12 0 12 12;
+	text-color: @gray-1;
 }
 
 inputbar {
@@ -73,14 +78,14 @@ mainbox {
 }
 
 prompt {
-	background-color: #25343d;
+	background-color: @beige-4;
 	enabled: true;
 	font: "FontAwesome 12";
 	padding: 12 0 0 12;
-	text-color: #FFFFFF;
+	text-color: @gray-1;
 }
 
 window {
-	border-color: #001735;
+	border-color: @cyan-1;
 	transparency: "real";
 }
