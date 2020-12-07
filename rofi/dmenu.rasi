@@ -55,7 +55,8 @@ element-icon {
 }
 
 element selected {
-	text-color: @cyan-3;
+	text-color: @gray-1;
+	background-color: @beige-4;
 }
 
 entry {
