@@ -1,5 +1,0 @@
-#!/bin/bash
-
-## Created By Aditya Shakya
-
-rofi -show drun -location 1 -xoffset 8 -yoffset 570 -theme ~/.config/rofi/dmenu.rasi
