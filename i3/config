@@ -4,8 +4,7 @@ font pango:monospace 8
 # Exec #
 ########
 
-#exec_always --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
-exec_always --no-startup-id picom --config=/home/school/.config/picom/picom.conf -bCG --backend glx --vsync --experimental-backends
+exec_always --no-startup-id picom --config=/dev/null -bCG --backend glx --vsync --experimental-backends
 exec_always --no-startup-id sleep 3 ; feh --bg-fill --randomize ~/pictures/wallpapers/*
 exec --no-startup-id sleep 2 ; i3-msg 'workspace 1'
 
@@ -13,14 +12,14 @@ exec --no-startup-id sleep 2 ; i3-msg 'workspace 1'
 # Gaps #
 ########
 
-for_window [class="^.*"] border pixel 2
-gaps inner 15
+for_window [class="^.*"] border pixel 3
+gaps inner 8
 
 ##########
 # Colors #
 ##########
 
-set $bg-color 	         #D4E157
+set $bg-color 	         #D32F2F
 set $inactive-bg-color   #542b8c
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
