@@ -20,7 +20,7 @@ gaps inner 8
 ##########
 
 set $bg-color 	         #D32F2F
-set $inactive-bg-color   #542b8c
+set $inactive-bg-color   #173F5F
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
